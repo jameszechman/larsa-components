@@ -1,0 +1,35 @@
+@mixin editor() {
+    .editor {
+        color: var(--color-foreground);
+        .ce-toolbar__plus,
+        .ce-toolbar__settings-btn {
+            color: var(--color-foreground);
+            &:hover {
+                color: var(--color-background);
+            }
+        }
+        .ce-inline-toolbar,
+        .tc-popover,
+        .cdx-search-field {
+            color: var(--color-background);
+        }
+        .tc-wrap {
+            --color-background: var(--color-background-hover);
+        }
+        .ce-toolbar {
+            .ce-toolbar__plus,
+            .ce-toolbar__settings-btn {
+                color: var(--color-background);
+                // &:hover {
+                //     color: var(--color-background);
+                // }
+            }
+        }
+    }
+
+    .cdx-notifies {
+        color: var(--color-background);
+        left: initial;
+        right: 20px;
+    }
+}

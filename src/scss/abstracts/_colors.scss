@@ -1,0 +1,38 @@
+// SCSS FUNCTION TO CHANGE HEX TO RGBA
+@function generateRGBA($color, $alpha: 1) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
+  $a: $alpha;
+
+  @return rgba($r, $g, $b, $a);
+}
+
+// Light
+$gray-100: generateRGBA(#fff5ee);
+$gray-200: generateRGBA(#ebe1da);
+$gray-300: generateRGBA(#918b87);
+$gray-400: generateRGBA(#5e5b59);
+$gray-500: generateRGBA(#302f2e);
+$gray-600: generateRGBA(#303030);
+$gray-700: generateRGBA(#1d1d1d);
+
+// Dark
+
+// SCSS PRIMARY COLORS
+$primary-50: generateRGBA(#fdebe7);
+$primary-100: generateRGBA(#fac8bd);
+$primary-200: generateRGBA(#ed3a12);
+$primary-300: generateRGBA(#ed3a12);
+$primary-400: generateRGBA(#f05d3d);
+$primary-500: generateRGBA(#f05d3d);
+$primary-600: generateRGBA(#be2e0e);
+$primary-700: generateRGBA(#8e230b);
+$primary-800: generateRGBA(#5f1707);
+$primary-900: generateRGBA(#2f0c04);
+
+// $primary-500: generateRGBA(#75fbab);
+// $primary-600: generateRGBA(#5ec386);
+// $primary-700: generateRGBA(#488f63);
+// $primary-800: generateRGBA(#335d42);
+// $primary-900: generateRGBA(#1d3024);

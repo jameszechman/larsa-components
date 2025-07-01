@@ -1,0 +1,8 @@
+@function rgb($color, $alpha: 1) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
+  $a: $alpha;
+
+  @return rgba($r, $g, $b, $a);
+}
