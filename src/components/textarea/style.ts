@@ -1,4 +1,4 @@
-import { css } from 'lit';
+import { css } from 'lit'
 
 export const style = css`
     textarea {
@@ -10,6 +10,7 @@ export const style = css`
         background-color: var(--color-background);
         color: var(--color-foreground);
         font-family: var(--font-body);
+        font-size: 1em;
         &[disabled] {
             opacity: 0.6;
             &:hover {
@@ -21,4 +22,4 @@ export const style = css`
             box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.25);
         }
     }
-`;
+`

@@ -1,4 +1,4 @@
-import { css } from 'lit';
+import { css } from 'lit'
 
 export const style = css`
     .card {
@@ -47,7 +47,7 @@ export const style = css`
                 min-height: 250px;
                 color: var(--gray-600);
                 ::slotted(h4) {
-                    /* font-family: var(--font-body); */
+                    color: var(--color-dark);
                     background: white;
                     padding-left: var(--spacing-xs);
                     padding-right: var(--spacing-xs);
@@ -55,6 +55,7 @@ export const style = css`
                     padding-bottom: 0.2rem;
                 }
                 ::slotted(div) {
+                    color: var(--color-dark);
                     background: white;
                     padding-left: var(--spacing-xs);
                     padding-right: var(--spacing-xs);
@@ -62,7 +63,7 @@ export const style = css`
                     padding-bottom: 0.2rem;
                 }
                 ::slotted(p) {
-                    /* font-family: var(--font-body); */
+                    color: var(--color-dark);
                     margin: 0;
                 }
             }
@@ -113,4 +114,4 @@ export const style = css`
     a {
         text-decoration: none;
     }
-`;
+`

@@ -50,7 +50,7 @@
         "editorjs-text-alignment-blocktune": "^1.0.3",
         "fast-average-color": "^9.4.0",
         "marked": "^12.0.1",
-        "micromodal": "^0.4.10"
+        "micromodal": "^0.6.1"
     },
     "peerDependencies": {
         "react": "^18.2.0",
