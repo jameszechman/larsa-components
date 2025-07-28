@@ -20,7 +20,7 @@
     "scripts": {
         "dev": "storybook dev -p 6006",
         "lint": "tsc",
-        "build": "vite build",
+        "build": "vite build && storybook build",
         "preview": "vite preview",
         "test": "vitest",
         "coverage": "vitest run --coverage",
